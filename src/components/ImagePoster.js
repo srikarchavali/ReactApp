@@ -1,10 +1,12 @@
 
 import React, {useState} from 'react'
+import './ImagePoster.css';
 import { BsHeart } from 'react-icons/bs';
 import { FcLike } from 'react-icons/fc';
-const ImagePoster = (props) => {
-    const [like, setLike] = useState(false);
     
+const ImagePoster = (props) => {
+const [like, setLike] = useState(false);
+
     return(
       <div className='grid'>
       {props.url.map((url)=>{
