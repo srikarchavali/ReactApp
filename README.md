@@ -1,6 +1,6 @@
-### To login use 
-# email: user3@email.com
-# password: user3
+## To login into the app use 
+### email: user3@email.com
+### password: user3
 
 ## Available Scripts
 
